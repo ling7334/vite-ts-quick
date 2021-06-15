@@ -1,5 +1,5 @@
 {
-  "name": "server_client",
+  "name": "vite-ts-router-vuex-i18n-elemnt-quickstart",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,13 +7,17 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "element-plus": "^1.0.2-beta.44",
-    "vue": "^3.0.11",
+    "dayjs": "^1.10.5",
+    "element-plus": "^1.0.2-beta.48",
+    "vue": "^3.1.1",
+    "vue-i18n": "^9.1.6",
     "vue-router": "^4.0.8",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^2.2.1",
     "@types/node": "^14.14.45",
+    "@vitejs/plugin-legacy": "^1.4.1",
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.11",
     "typescript": "^4.2.4",
